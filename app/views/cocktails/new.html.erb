@@ -4,8 +4,12 @@
   <%= f.input :name %>
   <%#= f.input :dose %>
   <%#= f.input :ingredients, collection: Ingredient.all %>
+  <%= f.input :photo, as: :file %>
   <%= f.submit %>
   <% end %>
 
+
   <%= link_to "Back to home", cocktails_path %>
+
+
 </div>
